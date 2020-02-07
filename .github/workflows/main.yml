@@ -1,0 +1,18 @@
+name: Deployment
+
+on:
+  push:
+    branches:
+      - LIVE
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - run: bash $GITHUB_WORKSPACE/deploy/action.sh
+        name: Run deployment script action.sh
+        env:
+          APPRISE_URL: ${{ secrets.APPRISE_URL }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
