@@ -15,3 +15,4 @@ No testing environment for this little website.
 ## Author
 
 - Christian Studer <cstuder@existenz.ch>
+- Background image "Reality" with written permission by [Eran Fowler](https://eranfolio.com).
