@@ -16,7 +16,7 @@ export LC_ALL=C.UTF-8
 
 ## Configuration
 PROJECT="Netrunner.ch"
-DEST_LIVE="existenz@existenz.ch:~/www/netrunner/www/"
+DEST_LIVE="existenz@existenz.ch:~/www/netrunner.ch/"
 SRC_PATH="$GITHUB_WORKSPACE/www/"
 
 NOTIFICATION_TITLE="$PROJECT {{ ref }} deployed"
