@@ -8,4 +8,10 @@ Run `npm run serve` and open <http://localhost:8000>.
 
 ## Deployment
 
-Run `npm run deploy-LIVE` to push to branch `LIVE`.
+Run `npm run deploy-LIVE` to push `master` to `LIVE`.
+
+No testing environment for this little website.
+
+## Author
+
+- Christian Studer <cstuder@existenz.ch>
