@@ -8,7 +8,7 @@ Run `npm run serve` and open <http://localhost:8000>.
 
 ## Deployment
 
-Run `npm run deploy-LIVE` to push `master` to `LIVE`.
+Run `npm run deploy-LIVE` to push `main` to `LIVE`.
 
 No testing environment for this little website.
 

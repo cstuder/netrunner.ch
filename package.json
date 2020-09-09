@@ -4,7 +4,7 @@
   "description": "The netrunner.ch website",
   "scripts": {
     "serve": "php -S localhost:8000 -t www",
-    "deploy-LIVE": "git push . master:LIVE && git push origin LIVE"
+    "deploy-LIVE": "git push . main:LIVE && git push origin LIVE"
   },
   "repository": {
     "type": "git",
